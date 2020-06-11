@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <script src="currency.js" ></script>
+    <link rel="stylesheet" type="text/css" href="currency.css">
+</head>
+
+<body>
+<h1 class="title">Currency Converter</h1>
+<div class = "main">
+<form name="converter" class = "form">
+<table border="0">
+<tr>
+<td>Euro: </td><td><input type="text" name="euro" id = "euro" onChange="euroConverter()" /></td>
+</tr>
+<tr>
+<td>US Dollar: </td><td><input type="text" name="dollar" id = "dollar" onChange="dollarConverter()" /></td>
+</tr>
+<tr>
+<td>Kuwaiti Dinar:</td><td><input type="text" name="dinar" id = "dinar" onChange="dinarConverter()" /></td>
+</tr>
+<tr>
+<td>Indian Rupees: </td><td><input type="text" name="inr" id = "inr" onChange="inrConverter()" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="button" value="Convert!" /></td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

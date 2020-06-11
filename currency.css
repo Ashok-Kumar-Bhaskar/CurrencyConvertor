@@ -1,0 +1,57 @@
+body
+{
+	background-color: #659dbd;
+}
+.form
+{
+	margin-top: 25%;
+	font-size: 200%;
+	font-weight: bolder;
+	border: solid black 3px;
+	border-radius: 5px;
+	padding: 10px;
+
+}
+
+.main
+{
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #c38d9e;
+	width: 50%;
+	text-align: right;
+
+}
+
+input[type="text"]
+{
+	width: 200%;
+	height: 25px;
+	border-width: 20%;
+}
+
+input[type="button"]
+{
+	width: 150%;
+	height: 25px;
+	margin-left: 10%;
+	font-size:50%;
+	border-width: 20%;
+}
+
+.title
+{
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+margin-bottom: 10px;
+padding: 5px;
+text-align:center;
+font-size: 150%;
+width: 40%;
+background-color: white;
+color:Black;
+border: solid black 5px;
+}
